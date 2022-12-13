@@ -1,5 +1,6 @@
 # Anon-sms
 
+# Note :- You can ony send messages to your own number 
 ![image](https://user-images.githubusercontent.com/49268327/207096836-18969142-3ce6-47de-b143-c67e15c347f3.png)
 
 
@@ -13,7 +14,7 @@ python3 main.py
 
 ![image](https://user-images.githubusercontent.com/49268327/207097107-650de599-6064-4543-88b0-aa97322abd69.png)
 ## Get api from [octopush](https://client.octopush.com/api-credentials)
-## Configer the api as shown in the image at **config.php** 
+## Configer the api as shown in the image at **config.py** 
 ## 1) Place the  mail at user_login 
 ```
 'user_login': 'your-mail@gmail.Scom',
