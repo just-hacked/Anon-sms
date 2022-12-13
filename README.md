@@ -1,6 +1,6 @@
 # Anon-sms
 
-# Note :- You can ony send messages to your own number 
+# Note :- You can only send messages to your own number 
 ![image](https://user-images.githubusercontent.com/49268327/207096836-18969142-3ce6-47de-b143-c67e15c347f3.png)
 
 
