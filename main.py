@@ -24,22 +24,23 @@ def print_slow(str):
 
 clear()
 print_slow(Fore.RED + '''
-      .o.                                                                                                    
-     .888.                                                                                                   
-    .8"888.     ooo. .oo.    .ooooo.  ooo. .oo.    .oooo.o ooo. .oo.  .oo.   ooo. .oo.  .oo.    .oooo.o      
-   .8' `888.    `888P"Y88b  d88' `88b `888P"Y88b  d88(  "8 `888P"Y88bP"Y88b  `888P"Y88bP"Y88b  d88(  "8      
-  .88ooo8888.    888   888  888   888  888   888  `"Y88b.   888   888   888   888   888   888  `"Y88b.       
- .8'     `888.   888   888  888   888  888   888  o.  )88b  888   888   888   888   888   888  o.  )88b      
-o88o     o8888o o888o o888o `Y8bod8P' o888o o888o 8""888P' o888o o888o o888o o888o o888o o888o 8""888P' 
-     
-                                           @ITS_JUSTHACKED                                                                  
-                                                                                                                                                                                                                          
+
+  /$$$$$$                                                                       
+ /$$__  $$                                                                      
+| $$  \ $$ /$$$$$$$   /$$$$$$  /$$$$$$$         /$$$$$$$ /$$$$$$/$$$$   /$$$$$$$
+| $$$$$$$$| $$__  $$ /$$__  $$| $$__  $$       /$$_____/| $$_  $$_  $$ /$$_____/
+| $$__  $$| $$  \ $$| $$  \ $$| $$  \ $$      |  $$$$$$ | $$ \ $$ \ $$|  $$$$$$ 
+| $$  | $$| $$  | $$| $$  | $$| $$  | $$       \____  $$| $$ | $$ | $$ \____  $$
+| $$  | $$| $$  | $$|  $$$$$$/| $$  | $$       /$$$$$$$/| $$ | $$ | $$ /$$$$$$$/
+|__/  |__/|__/  |__/ \______/ |__/  |__/      |_______/ |__/ |__/ |__/|_______/ 
+                                                                                                                                                                                                                                           
+                                    @ITS_JUSTHACKED                                                                                                                                                                                                                                                                                            
 ''') 
 recipient = []
 message = str(input("Enter  Your message : "))
 data = str(input("Enter  Victum number : "))
 recipient.append(data)
-sender = 'Idowu'
+sender = str(input("Enter The Calle ID : "))
 sms = SMS(config['user_login'], config['api_key'])
 sms.set_sms_text(message)
 sms.set_sms_recipients(recipient)
